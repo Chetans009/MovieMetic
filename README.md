@@ -30,10 +30,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Project Commands
 
 - create app: ng new MovieMetic -dir MovieMetic --routing -p mtic --style scss --sg --skip-install --service-worker
-- 
+- yarn install
+- ng serve -o
+- npm install --save bootstrap@next
 
 ## References
 
 - service worker : https://www.youtube.com/watch?v=d9M3z6ap0x4
 - sub modules : https://www.youtube.com/watch?v=VcVRkKp01iI
 - http-interceptor : https://www.youtube.com/watch?v=qnRrqH-BzJE
+- add jquery : https://www.youtube.com/watch?v=mAwqk-eIPL8
