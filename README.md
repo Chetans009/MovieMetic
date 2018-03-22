@@ -32,8 +32,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - create app: ng new MovieMetic -dir MovieMetic --routing -p mtic --style scss --sg --skip-install --service-worker
 - 
 
+## Add Material Theme
+
+- npm install --save @angular/material @angular/cdk
+- npm install --save @angular/animations
+- npm install --save hammerjs
+- npm install --save popper.js@^1.12.9
+
 ## References
 
 - service worker : https://www.youtube.com/watch?v=d9M3z6ap0x4
 - sub modules : https://www.youtube.com/watch?v=VcVRkKp01iI
 - http-interceptor : https://www.youtube.com/watch?v=qnRrqH-BzJE
+- add material : 
+	- https://www.youtube.com/watch?v=UnKsoCeTdEI 
+	- https://coursetro.com/posts/code/116/Create-your-own-Angular-5-Material-Theme
+	- https://material.angular.io/guide/getting-started#npm
