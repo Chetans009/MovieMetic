@@ -6,7 +6,7 @@ import 'rxjs/add/operator/do';
 export class ApiInterceptor implements HttpInterceptor {
     intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpSentEvent | HttpHeaderResponse | HttpProgressEvent | HttpResponse<any> | HttpUserEvent<any>> {
         const request = req.clone({
-            url: req.url+"?wapi_key=901914274ae6f640444717dcac80eace"
+            url: req.url+"?api_key=901914274ae6f640444717dcac80eace"
         })
         return next.handle(request).do(
             success => console.info("success:" , success),
